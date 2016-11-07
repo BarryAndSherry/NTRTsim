@@ -271,5 +271,21 @@ anything.
 		#sed -i '' 's/^# using gcc ;/using gcc ;/g' tools/build/v2/user-config.jam
 	4)run setup.sh
 	5)run bin/build.sh
+	
+** Using an IDE **
+	
+	For some reasons you might what to use IDE for programming. The cmake tools could help you do that very easily.
+	
+	First you can type command line:
+			
+			cmake --help
+	
+	You will get some line telling about some options to need to know.
+	
+	Then go to the /../build/ to edit build.sh.
+	
+	Modify build type  to which IDE you want to use.
+			
+			
 
 
